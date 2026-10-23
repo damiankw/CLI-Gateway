@@ -1,0 +1,13 @@
+{
+  "host": "0.0.0.0",
+  "port": 4000,
+  "apiKey": "",
+  "defaultModel": "claude/sonnet",
+  "defaultSystem": "You are a helpful assistant.",
+  "toolModel": "claude/sonnet",
+  "adapters": {
+    "claude": { "enabled": true, "allowTools": false },
+    "gemini": { "enabled": true, "allowTools": false, "cwd": "/tmp" },
+    "codex":  { "enabled": true, "allowTools": false }
+  }
+}

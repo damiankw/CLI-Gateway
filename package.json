@@ -1,0 +1,10 @@
+{
+  "name": "cli-gateway",
+  "version": "0.1.0",
+  "private": true,
+  "description": "One OpenAI-compatible API in front of many AI CLIs (Claude, Gemini, Codex, Grok). Add a backend by dropping an adapter module in ./adapters.",
+  "type": "commonjs",
+  "bin": { "cli-gateway": "server.js" },
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
